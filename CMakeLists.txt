@@ -1,8 +1,8 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.20)
 PROJECT(glad-submodule VERSION 1.0.0 LANGUAGES C)
 
-ADD_LIBRARY(glad-opengl STATIC src/gl.c)
-ADD_LIBRARY(glad-vulkan STATIC src/vulkan.c)
+ADD_LIBRARY(glad-opengl SHARED src/gl.c)
+ADD_LIBRARY(glad-vulkan SHARED src/vulkan.c)
 
 TARGET_INCLUDE_DIRECTORIES(glad-opengl PUBLIC include)
 TARGET_INCLUDE_DIRECTORIES(glad-vulkan PUBLIC include)

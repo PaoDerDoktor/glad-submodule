@@ -2,7 +2,7 @@
 
 ## What am I looking at ?
 
-This is a small repo intended to be used as a submodule, in order to consider glad as not part of the project you're building as a submodule of it's (thus nor counting the gargantous glad files in your stats). It also helps when you don't really want to go through the glad generator for the *6184318646135th* time.
+This is a small repo intended to be used as a submodule, in order to consider glad as not part of the project you're building as a submodule of it's (thus not counting the gargantous glad files in your stats). It also helps when you don't really want to go through the glad generator for the *6184318646135th* time.
 
 ## Which glad did you generate ?
 
@@ -31,7 +31,7 @@ Now you just have to choose the one you need and link it to your executable's ta
 
 ## Can I contribute ?
 
-Absolutely ! If you think my CMakeLists is wrong, or that I forgot some important extension, or that I missed a Vulkan or OpenGL version change, make a pull request !
+Absolutely ! If you think my `CMakeLists.txt` is wrong, or that I forgot some important extension, or that I missed a Vulkan or OpenGL version change, make a pull request !
 
 ## Credits
 
